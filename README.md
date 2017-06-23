@@ -1,5 +1,7 @@
 # sorbentfit
-Sorbent kinetic/equilibrium model code for parameter estimation for the 1st generation sorbent model.
+Sorbent kinetic/equilibrium model code for parameter estimation for the 1st generation sorbent model. This contains the Sorbentfit suite of routines that fit combined thermodynamic and kinetic models of amine-based CO2 solid sorbents to laboratory and bench-scale data.  There are two levels of models included with the code: a lumped kinetic model and a reaction-diffusion model with zwitterion chemistry. The lumped kinetic model is faster, while the reaction-diffusion model is more accurate. Both models can be fit to thermogravimetry and fixed-bed data. Fits can be either point estimates of parameters, achieved using a particle swarm optimizer, or Bayesian calibration, which results in a distribution of parameter values. Sorbentfit does not require any third-party software; it runs in Windows, Mac and UNIX/Linux operating systems.
+
+
 
 ## Development Practices
 
