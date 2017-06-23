@@ -1,0 +1,60 @@
+# Configuration File for 1st-gen Sorbent TGA Fitting Routine (Entries on the Same Line Delimeated by Spaces):
+# 1437886692 1438201311
+
+# Timestep (s) | Relative Convergence Tolerance | Absolute Convergence Tolerance
+0.02 1.0e-10 1.0e-8
+
+# Atmospheric Pressure of Data (Pa) | Sorbent Density (kg/m^3)
+101325 442.0
+
+# Dry Case Bounds
+# Reaction Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation
+-110000.00 -35000.00 -106730 800
+
+# Reaction Entropy Low | High (J/mol-K) | Starting Point | Standard Deviation
+-300.00 -150.00 -273.91 4
+
+# Activation Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation
+10000.00 80000.00 36353 2000
+
+# Base-10 Logarithm of Preexponential Factor Low | High (Unitless) | Starting Point | Standard Deviation
+-2.00 5.00 .66108 1.0
+
+# Wat (Water) Case Bounds
+# (Input values from empfit_wat in place of the ranges if the water parameters have already been estimated)
+# Number of Active Adsorption Sites for Unit Volume Low | High (nv, mol/m^3) | Starting Point | Standard Deviation
+1500.00 2800.00 1928.8 70
+
+# Reaction Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation
+-80000.00 -20000.00 -73635 600
+
+# Reaction Entropy Low | High (J/mol-K) | Starting Point | Standard Deviation
+-300.00 -100.00 -144.71 4
+
+# Activation Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation
+0.00 70000.00 35761 100
+
+# Base-10 Logarithm of Preexponential Factor Low | High (Unitless) | Starting Point | Standard Deviation
+-5.00 6.00 .27297 0.8
+
+# Humid Case Bounds
+# Reaction Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation
+-150000.00 -40000.00 -43411 2500
+
+# Reaction Entropy Low | High (J/mol-K) | Starting Point | Standard Deviation
+-300.00 -100.00 -196.72 40
+
+# Activation Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation
+30000.00 120000.00 94898 2900
+
+# Base-10 Logarithm of Preexponential Factor Low | High (Unitless) | Starting Point | Standard Deviation
+-5.0 5.0 4.6784 1.2
+
+# Observational Error Tunning Nu| Tau
+2 .0002
+
+# Number of MCMC step desired
+50
+
+# Counter results
+1
