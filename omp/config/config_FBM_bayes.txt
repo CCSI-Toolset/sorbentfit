@@ -1,0 +1,76 @@
+# Configuration File for 1st-gen Sorbent TGA Fitting Routine (Entries on the Same Line Delimeated by Spaces):
+# 1433449103 1433514048
+
+# Timestep (s) | Relative Convergence Tolerance | Absolute Convergence Tolerance
+.1 1.0e-6 1.0e-7
+
+# Atmospheric Pressure (Pa) | Atmospheric Temp (K)| Sorbent Density (kg/m^3) | porosity
+101325 298.0 442.0 .39
+
+# Cross Sectional Area delt L (m) | Length (m)
+1.3074e-3 1.0e-2 .15
+
+# Outlet Sensors Pressure Drop | %CO2 | %H20 (0=N/A & 1=Available)
+1 1 1
+
+# Dry Case Bounds
+# Reaction Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation
+-130000.00 -35000.00 -105553 1500
+
+# Reaction Entropy Low | High (J/mol-K) | Starting Point | Standard Deviation
+-350.00 -150.00 -175.762 40
+
+# Activation Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation
+10000.00 80000.00 53925.7 800
+
+# Base-10 Logarithm of Preexponential Factor Low | High (Unitless) | Starting Point | Standard Deviation
+-2.00 5.00 .787884 .025
+
+# Number of Active Adsorption Sites for Unit Volume Low | High (nv, mol/m^3) | Starting Point | Standard Deviation
+1500.00 2800.00 1890 15
+
+# Wat (Water) Case Bounds
+# Reaction Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation
+-80000.00 -20000.00 -64199.4 2000
+
+# Reaction Entropy Low | High (J/mol-K) | Starting Point | Standard Deviation
+-300.00 -100.00 -172.648 25
+
+# Activation Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation
+0.00 70000.00 58862.7 100
+
+# Base-10 Logarithm of Preexponential Factor Low | High (Unitless) | Starting Point | Standard Deviation
+-5.00 6.00 1.87786 0.07
+
+# Number of Active Adsorption Sites for H2O per Unit Volume Low | High (nv, mol/m^3) | Starting Point | Standard Deviation
+1500.00 2900.00 2542.41 15
+
+# Humid Case Bounds
+# Reaction Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation
+-150000.00 -40000.00 -109773 28000
+
+# Reaction Entropy Low | High (J/mol-K) | Starting Point | Standard Deviation
+-300.00 -100.00 -101.523 210
+
+# Activation Enthalpy Low | High (J/mol) | Starting Point | Standard Deviation
+30000.00 120000.00 91678.3 28000
+
+# Base-10 Logarithm of Preexponential Factor Low | High (Unitless) | Starting Point | Standard Deviation
+-5.0 5.0 1.87792 5.1
+
+# Mobility
+1.01e-4 1.59e-4 1.37804e-4 2.5e-6
+
+# Observational Error Tunning Nu Pressure Drop | CO2% | H2O%
+2 2 2
+
+# Observational Error Tunning Tau
+1e-8 .08 .08
+
+# Number of MCMC step desired
+4000
+
+# Counter results
+50
+
+

@@ -1,0 +1,8 @@
+6
+4 1
+data/NETL_NETL32D_4pctCO2DryTGA.txt
+data/NETL_NETL32D_10pctCO2DryTGA.txt
+data/NETL_NETL32D_18.5pctCO2DryTGA.txt
+data/NETL_NETL32D_100pctCO2DryTGA.txt
+data/NETL_NETL32D_4pctCO2HumidTGA.txt
+data/NETL_NETL32D_7.5pctCO2HumidTGA.txt

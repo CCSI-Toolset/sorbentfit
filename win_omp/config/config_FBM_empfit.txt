@@ -1,0 +1,83 @@
+# Configuration File for 1st-gen Sorbent TGA Fitting Routine (Entries on the Same Line Delimeated by Spaces):
+# 1433449103 1433514048
+
+# Timestep (s) | Relative Convergence Tolerance | Absolute Convergence Tolerance
+.1 1.0e-6 1.0e-7
+
+# Atmospheric Pressure (Pa) | Atmospheric Temp (K)| Sorbent Density (kg/m^3) | porosity
+98470.0 298.0 442.0 .39
+
+# Cross-Sectional area (m^2) | delt L (m) | Length (m)
+1.3074e-3 1.0e-2 .15
+
+# Outlet Sensors Pressure Drop | %CO2 | %H20 (0=N/A & 1=Available)
+1 1 1
+
+# Dry Case Bounds
+# Reaction Enthalpy Low | High (J/mol)
+-110000.00 -35000.00
+#-115833
+
+# Reaction Entropy Low | High (J/mol-K)
+-300.00 -150.00
+#-298.296
+
+# Activation Enthalpy Low | High (J/mol)
+10000.00 70000.00
+#54275
+
+# Base-10 Logarithm of Preexponential Factor Low | High (Unitless)
+-2.00 4.00
+#0.869422
+
+# Number of Active Adsorption Sites for CO2 per Unit Volume Low | High (nv, mol/m^3)
+1500.00 2100.00
+#1882.68
+
+# Wat (Water) Case Bounds
+# Reaction Enthalpy Low | High (J/mol)
+-80000.00 -20000.00
+#-67253.4
+
+# Reaction Entropy Low | High (J/mol-K)
+-300.00 -100.00
+#-124.885
+
+# Activation Enthalpy Low | High (J/mol)
+10000.00 80000.00
+#59600.2
+
+# Base-10 Logarithm of Preexponential Factor Low | High (Unitless)
+-5.00 4.00
+#2.0
+
+# Number of Active Adsorption Sites for H2O per Unit Volume Low | High (nv, mol/m^3)
+1500.00 2900.00
+#2382.68
+
+# Humid Case Bounds
+# Reaction Enthalpy Low | High (J/mol)
+-150000.00 -40000.00
+#-110110
+
+# Reaction Entropy Low | High (J/mol-K)
+-300.00 -100.00
+#-162.955
+
+# Activation Enthalpy Low | High (J/mol)
+30000.00 120000.00
+#106287
+
+# Base-10 Logarithm of Preexponential Factor Low | High (Unitless)
+-5.0 4.0
+#1.89
+
+# Mobility
+1.21e-4 1.49e-4
+#1.39e-4
+
+# Number of PSO Agents per CPU Node
+4
+
+# Normalize Data 0=no | 1=yes
+0
