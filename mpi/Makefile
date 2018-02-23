@@ -12,7 +12,6 @@ PARENT_PAYLOAD_LOCAL := $(shell echo $(PARENT_PAYLOAD) | sed 's:../::g')
 PAYLOAD := config/ \
 	data/      \
 	filelist/  \
-	results/   \
 	src/    
 
 # Get just the top part (not dirname) of each entry so cp -r does the right thing
