@@ -1,7 +1,4 @@
-
-// Copyright 2011 David S. Mebane.  Use, modification and distribution
-// are subject to the GNU General Public License, Version 3.  (A copy
-// is available at <http://www.gnu.org/licenses/gpl.html>.)
+// See LICENSE.md for license anc copyright details.
 
 // Function evaluation parent class for use with particle swarm
 // optimizer.  Public member _objeval returns an evaluation of the
