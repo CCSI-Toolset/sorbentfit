@@ -1,12 +1,11 @@
 # A simple makefile for creating the Sorbentfit MPI compressed tarball file
 VERSION := $(shell git describe --tags --dirty)
 PRODUCT := Sorbentfit-MPI
-LICENSE := LICENSE.md
+LICENSE := ../LICENSE.md
 PKG_DIR := CCSI_$(PRODUCT)_$(VERSION)
 PACKAGE := $(PKG_DIR).tgz
 
-PARENT_PAYLOAD := ../BOOST_LICENSE_1_0.txt \
-	../LICENSE.md
+PARENT_PAYLOAD := $(LICENSE)
 PARENT_PAYLOAD_LOCAL := $(shell echo $(PARENT_PAYLOAD) | sed 's:../::g')
 
 PAYLOAD := config/ \

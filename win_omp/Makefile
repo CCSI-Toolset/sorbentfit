@@ -1,18 +1,17 @@
 # A simple makefile for creating the Sorbentfit compressed tarball file
 VERSION := $(shell git describe --tags --dirty)
 PRODUCT := Sorbentfit-Win-OMP
+LICENSE := ../LICENSE.md
 PKG_DIR := CCSI_$(PRODUCT)_$(VERSION)
 PACKAGE := $(PKG_DIR).zip
 
-PARENT_PAYLOAD := ../BOOST_LICENSE_1_0.txt \
-    ../LICENSE.md
+PARENT_PAYLOAD := $(LICENSE)
 PARENT_PAYLOAD_LOCAL := $(shell echo $(PARENT_PAYLOAD) | sed 's:../::g')
 
 PAYLOAD := src       \
            config    \
            data      \
-           filelist  \
-           COPYING.winpthreads.txt
+           filelist
 
 # Get just the top part (not dirname) of each entry so cp -r does the right thing
 PAYLOAD_TOPS := $(foreach v,$(PAYLOAD),$(shell echo $v | cut -d'/' -f1))
