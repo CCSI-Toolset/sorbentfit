@@ -6,7 +6,7 @@ See installation and user guide documents in the [docs](docs) subdirectory.
 
 ## Authors
 * Keenan Kocan
-* David Mebane
+* David Mebane (project lead)
 * Brian Logsdon
 * Conor Pyles
 
